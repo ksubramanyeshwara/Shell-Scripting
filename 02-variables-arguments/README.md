@@ -15,7 +15,7 @@
 - Use `$` only when reading the variable
 - Shell is loosely typed. A variable can be number, string.
 
-> Environment or configuration variables are often uses UPPERCASE (ex: $HOME, $PATH)
+> Environment or configuration variables are often uses UPPERCASE (ex: $HOME, $PATH). Use env command to check environment variables.
 
 ## User Input
 
@@ -51,6 +51,9 @@ echo "Hello, $name"
 - `./shell-script.sh your-argument`
 - We can make use of `$1`, `$2`, and so on to reference the multiple arguments.
 - Use one space to seperate multiple arguments.
-- Use `@` to referenace all 
+- Use `@` to referenace all
 
 > $0 is used to refer the script itself
+
+> currentdate=$(date) is replaced with currentdate=Fri Jan 16 20:03:22 IST 2026
+> $(), Executes the command inside, Captures the output, Substitutes it in place

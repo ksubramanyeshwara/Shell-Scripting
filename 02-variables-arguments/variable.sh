@@ -4,6 +4,8 @@
 name="K Subramanyeshwara"
 echo "User name is ${name}"
 
+echo "Username is: $USER"
+
 # read input from user
 echo "Enter your age:"
 read age
