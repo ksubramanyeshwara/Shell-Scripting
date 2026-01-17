@@ -29,3 +29,28 @@ echo $X        # string
 
 - Using declare -a explicitly defines an array.
 - Using declare -A explicitly defines an associative array.
+
+## Math in Shell
+
+### (( )) — Arithmetic Context
+
+```
+a=10
+b=20
+((sum = a + b))
+```
+
+### Increment & Decrement
+
+```
+((i++))
+((i--))
+((++i))
+```
+
+> Modern scripts prefer $(( )) over expr for performance
+
+### Floating point requires external tools (bc, awk)
+
+- Use scale in bc to control decimal places.
+
