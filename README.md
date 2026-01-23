@@ -27,6 +27,9 @@ Everything here is created while learning and experimenting — so it’s practi
 - [Variables & Arguments](./02-variables-arguments/README.md)
 - [Data Types](./03-datatypes/README.md)
 - [Conditions](./04-conditionals/README.md)
+- [Loops](./05-loops/README.md)
+- [Exit Codes](./06-exit-codes/README.md)
+
 
 <!-- Loops()
  Functions()
