@@ -2,7 +2,7 @@
 
 number=55
 
-if [ $number -eq 45 ]
+if [ "$number" -eq 45 ]
 then
     echo "$number is equal to 45"
 else
