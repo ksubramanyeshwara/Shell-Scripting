@@ -4,7 +4,7 @@ Loop repeats a block of command until a specific condition is met.
 
 ## for Loop
 
-Iterates over a predefined list of items (like strings, file names, or numbers) and executes the block of code for each item.
+Iterates over a list of items and executes commands for each item.
 
 **Syntax**
 
