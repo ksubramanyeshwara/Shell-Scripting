@@ -29,7 +29,7 @@ Everything here is created while learning and experimenting — so it’s practi
 - [Conditions](./04-conditionals/README.md)
 - [Loops](./05-loops/README.md)
 - [Exit Codes](./06-exit-codes/README.md)
-
+- [Functions](./07-functions/README.md)
 
 <!-- Loops()
  Functions()
