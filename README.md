@@ -31,6 +31,7 @@ Everything here is created while learning and experimenting — so it’s practi
 - [Exit Codes](./06-exit-codes/README.md)
 - [Functions](./07-functions/README.md)
 - [Storing Scripts](./08-storing-scripts/README.md)
+- [Data Streams](./09-data-streams/README.md)
 
 <!-- Loops()
  Functions()
