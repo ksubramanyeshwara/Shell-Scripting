@@ -32,6 +32,9 @@ Everything here is created while learning and experimenting — so it’s practi
 - [Functions](./07-functions/README.md)
 - [Storing Scripts](./08-storing-scripts/README.md)
 - [Data Streams](./09-data-streams/README.md)
+- [Case Statements](./10-case-statements/README.md)
+- [Job Scheduling](./11-job-scheduling/README.md)
+- [Practial Shell Scripts](./practical-shell-scripts)
 
 <!-- Loops()
  Functions()

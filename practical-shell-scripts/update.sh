@@ -11,6 +11,8 @@
 
 # Check for the OS release file
 release_file=/etc/os-release
+logfile=/var/log/update_logfile.log
+errorfile=/var/log/update_error.log
 
 # Check if the system is Ubuntu
 if grep -q "Ubuntu" $release_file
@@ -18,7 +20,7 @@ then
     echo "This is an Ubuntu system."
     # Update package lists
     echo "Updating the system..."
-    sudo apt update
+    sudo apt update 1>>$logfile 2>>$errorfile
 
     # Check for upgradable packages
     echo "Checking for upgradable packages..."
@@ -31,7 +33,7 @@ then
     then
         # Upgrade packages if user agrees
         echo "Upgrading packages..."
-        sudo apt upgrade
+        sudo apt upgrade 1>>$logfile 2>>$errorfile
         echo "Upgrade completed."
     else
         # Inform the user if they choose not to upgrade
